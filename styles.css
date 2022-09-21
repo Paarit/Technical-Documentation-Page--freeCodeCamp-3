@@ -1,0 +1,147 @@
+html, body {
+    min-width: 290px;
+    color: #4d4e53;
+    background-color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+}
+
+body {
+    display: block;
+    margin: 8px;
+}
+
+#navbar {
+    position: fixed;
+    min-width: 290px;
+    top: 0px;
+    left: 0px;
+    width: 300px;
+    height: 100%;
+    border-right: solid;
+    border-color: rgba(0, 22, 22, 0.4);
+}
+
+nav {
+    display: block;
+}
+
+header {
+    color: black;
+    margin: 10px;
+    font-size: 1.8em;
+    text-align: center;
+}
+
+header {
+    display: block;
+}
+
+#navbar ul {
+    height: 88%;
+    padding: 0;
+}
+
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+#navbar li {
+    color: #4d4e53;
+    border-top: 1px solid;
+    list-style: none;
+    position: relative;
+    width: 100%;
+}
+
+li {
+    display: list-item;
+    
+}
+
+#navbar a {
+    display: block;
+    padding: 10px 30px;
+    text-decoration: none;
+    color: #4d4e53;
+    cursor: pointer;
+}
+
+#main-doc {
+    position: absolute;
+    padding: 20px;
+    margin-left: 310px;
+    margin-bottom: 110px;
+}
+
+main {
+    display: block;
+}
+
+section {
+    display: block;
+}
+
+.main-section header {
+    text-align: left;
+    margin: 0px;
+}
+
+section article {
+    color:#4d4e53;
+    margin: 15px;
+    font-size: 1em;
+}
+
+article {
+    display: block;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+section li {
+    margin: 15px 0 0 20px;
+}
+
+code {
+    display: block;
+    text-align: left;
+    white-space: pre-line;
+    position: relative;
+    word-wrap: normal;
+    word-break: normal;
+    line-height: 2;
+    background-color: #f7f7f7;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 5px;
+    font-family: monospace;
+}
+
+ul ul {
+    list-style-type: circle;
+    margin-block-start: 0px;
+    scroll-margin-block-end: 0px;
+}
+
+
+/* Media queries */
+
+@media only screen and (max-width) {
+    header {
+        font-size: 1.3em;
+    }
+    
+}
